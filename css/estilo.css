@@ -246,11 +246,18 @@ body{
 	padding-top: 200px;
 }
 
-#trayectoria > span{
-		font-family: 'Lato', sans-serif;
+#titulo_tray{
+	width:100%;
+	height:150px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#titulo_tray > span{
+		font-family: 'Raleway', sans-serif;
 		display:block;
-		font-size:20px;
-		text-decoration:underline;
+		font-size:50px;
+		color: white;
 		margin-bottom:80px;
 }
 
@@ -260,7 +267,9 @@ body{
 	margin:auto;
 	overflow: hidden;
 	text-align: center;
+	display: none;
 }
+
 
 .trayectoria_izq{
 	width: 430px;
@@ -271,6 +280,7 @@ body{
 	width: 430px;
 	float: right;
 	padding-left: 50px;
+	padding-top: 180px
 }
 
 
@@ -279,7 +289,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: justify;
-	padding: 20px 44px;
+	padding: 13px 44px;
 	color: #fff;
 }
 .trayectoria_izq p{
@@ -287,7 +297,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: justify;
-	padding: 20px 20px;
+	padding: 15px 20px;
 	color: #fff;
 }
 
@@ -296,37 +306,59 @@ body{
 	width: 420px;
 	position: relative;
 	border-radius: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	line-height: 20px
 }
 
 .box1{
 	background: url('../img/box_1.png');
 	background-size: 420px 112px;
 	background-repeat: no-repeat;
+	margin-bottom: 235px;
 }
 .box2{
 	background: url('../img/box_2.png');
 	background-size: 420px 125px;
 	background-repeat: no-repeat;
+	margin-bottom: 175px;
 }
 .box3{
 	background: url('../img/box-3.png');
 	background-size: 420px 125px;
 	background-repeat: no-repeat;
+	margin-bottom: 195px;
 }
 .box4{
 	background: url('../img/box_4.png');
-	background-size: 420px 200px;
+	background-size: 420px 218px;
 	background-repeat: no-repeat;
+	margin-bottom: 160px;
 }
 .box5{
 	background: url('../img/box_5.png');
 	background-size: 420px 166px;
 	background-repeat: no-repeat;
+	margin-bottom: 195px;
 }
 .box6{
 	background: url('../img/box_6.png');
 	background-size: 420px 125px;
 	background-repeat: no-repeat;
+}
+
+#puntos{
+	background: url('../img/puntos_timeline.png') no-repeat;
+	background-position: center;
+	background-size: 70px 1100px;
+	position: absolute;
+	width:100px;
+	height: 1200px;
+	z-index: 9000;
+	top: 80px;
+	left: 27em;
+	right: 27em;
+	
 }
 
 
