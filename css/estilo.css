@@ -267,7 +267,11 @@ body{
 	margin:auto;
 	overflow: hidden;
 	text-align: center;
+<<<<<<< HEAD
 	display: none;
+=======
+	
+>>>>>>> FETCH_HEAD
 }
 
 
@@ -358,7 +362,10 @@ body{
 	top: 80px;
 	left: 27em;
 	right: 27em;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> FETCH_HEAD
 }
 
 
