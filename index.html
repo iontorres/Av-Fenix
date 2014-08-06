@@ -10,46 +10,10 @@
 <link rel=stylesheet href="css/normalize.css" type="text/css" >
 <link rel=stylesheet href="css/estilo.css" type="text/css" >
 <link rel=stylesheet href="css/style.css" type="text/css" >
-<<<<<<< HEAD
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><!--<![endif]-->
-=======
-
->>>>>>> FETCH_HEAD
 </head>
 
 <body>
-	
-
-<script>
-var startYbox1 = 1800;
-var stopYbox1 = 9800;
-
-$(window).scroll(function(){
-    checkY();
-});
-
-function checkY()
-{
-    console.log($(window).scrollTop()); 
-    if($(window).scrollTop() > startY && $(window).scrollTop() <= stopY)
-    {
-        console.log("Show"); 
-
-        $('.box1').show(1300); 
-    }
-    else
-    {
-        console.log("Hide"); 
-        $('.box1').hide(200);
-    }
-}
-
-checkY();
-</script>
-
-
-
-	
 	<div id="wrapper">
 		
 		<div id="home">
@@ -130,11 +94,7 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 
 					
 						<section class="contenedor_trayectoria">
-<<<<<<< HEAD
-							<a href="#" id="close">X</a>
-=======
 
->>>>>>> FETCH_HEAD
 							<section class="trayectoria_izq">
 
 								<article class="trayectoria_info box1">
@@ -151,7 +111,7 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 									<p>Actualmente la empresa se encuentra en un proceso de expansión ya que de dos años a la fecha, los resultados han sido tan buenos, que las empresas han volteado a ver a sus empleados desde un marco emocional y son estas las que ahora solicitan la impartición de estos talleres dentro de sus empresas.</p>
 								</article>
 
-								<article class="trayectoria_info box1">
+								<article class="trayectoria_info box7">
 									<p>Cabe mencionar que los seminarios son impartidos en las mejores instalaciones y el personal está altamente capacitado y siempre en constante aprendizaje.</p>
 								</article>
 								
@@ -178,6 +138,9 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 									<p>Hemos impartido seminarios a más de 35 empresas destacando la participación de Honda y PEMEX, que son las empresas con las que se trabaja actualmente.
 									</p>
 								</article>
+
+								<a href="#" id="close">X</a>
+								
 						    </section>
 					    </section>
 				</section> <!-- #trayectoria -->
@@ -185,16 +148,10 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 				
 		
 	</div>
-<<<<<<< HEAD
-
-<script src="js/slide.js" type="text/javascript"></script>
-
-=======
-	<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="js/slide.js" type="text/javascript"></script>
 <script src="js/scrollbuttons.js" type="text/javascript"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><!--<![endif]-->
->>>>>>> FETCH_HEAD
+
+
 	<script src="js/jquery.nav.js"></script>
 	<script>
 		$(document).ready(function() {
@@ -203,7 +160,7 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 		});
 
 		$("#mostrar").click(function(){
-<<<<<<< HEAD
+
 			$( ".contenedor_trayectoria" ).slideDown( "slow" );
 		});
 
@@ -212,14 +169,125 @@ Según la tradición, se consumía cada 500 años y una nueva y joven surgía de
 		});
 	</script>
 
-=======
-	$( ".contenedor_trayectoria" ).show( "fade", "slow" );
-	});
+
+<script>
+var startYbox1 = 1600;
+var stopYbox1 = 9800;
+var startYbox2 = 1900;
+var stopYbox2 = 9800;
+var startYbox3 = 2000;
+var stopYbox3 = 9800;
+var startYbox4 = 2300;
+var stopYbox4 = 9800;
+var startYbox5 = 2400;
+var stopYbox5 = 9800;
+var startYbox6 = 2500;
+var stopYbox6 = 9800;
+var startYbox7 = 2600;
+var stopYbox7 = 9800;
+
+$(window).scroll(function(){
+    checkY();
+});
+
+function checkY()
+{
+    console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox1 && $(window).scrollTop() <= stopYbox1 )
+    {
+        console.log("Show"); 
+
+        $('.box1').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box1').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox2 && $(window).scrollTop() <= stopYbox2)
+    {
+        console.log("Show"); 
+
+        $('.box2').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box2').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox3 && $(window).scrollTop() <= stopYbox3)
+    {
+        console.log("Show"); 
+
+        $('.box3').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box3').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox4 && $(window).scrollTop() <= stopYbox4)
+    {
+        console.log("Show"); 
+
+        $('.box4').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box4').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox5 && $(window).scrollTop() <= stopYbox5)
+    {
+        console.log("Show"); 
+
+        $('.box5').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box5').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox6 && $(window).scrollTop() <= stopYbox6)
+    {
+        console.log("Show"); 
+
+        $('.box6').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box6').hide(50);
+    }
+
+     console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startYbox7 && $(window).scrollTop() <= stopYbox7)
+    {
+        console.log("Show"); 
+
+        $('.box7').show(1300); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.box7').hide(50);
+    }
+}
+
+checkY();
+</script>
 
 
-
-	</script>
->>>>>>> FETCH_HEAD
 </body>
 
 </html>

@@ -267,13 +267,8 @@ body{
 	margin:auto;
 	overflow: hidden;
 	text-align: center;
-<<<<<<< HEAD
 	display: none;
-=======
-	
->>>>>>> FETCH_HEAD
 }
-
 
 .trayectoria_izq{
 	width: 430px;
@@ -351,6 +346,13 @@ body{
 	background-repeat: no-repeat;
 }
 
+.box7{
+	background: url('../img/box_1.png');
+	background-size: 420px 112px;
+	background-repeat: no-repeat;
+	margin-bottom: 235px;
+}
+
 #puntos{
 	background: url('../img/puntos_timeline.png') no-repeat;
 	background-position: center;
@@ -362,16 +364,11 @@ body{
 	top: 80px;
 	left: 27em;
 	right: 27em;
-<<<<<<< HEAD
-	
-=======
->>>>>>> FETCH_HEAD
+
 }
 
 
-
 /************************** RESPONSIVE ****************************/
-
 @media screen and (min-width:801px) and (max-width:980px){
 
 	#cellcontent{
