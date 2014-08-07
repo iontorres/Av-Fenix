@@ -131,6 +131,7 @@ body{
 		font-size:20px;
 		font-weight:100;
 		width:650px;
+		color: #fff;
 		line-height:30px;
 		text-align:justify;
 		padding-top:20px;
@@ -261,6 +262,41 @@ body{
 		margin-bottom:80px;
 }
 
+.mostrar_btn{
+	width: 100%;
+	margin: auto;
+}
+
+.mostrar_btn img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.mostrar_btn a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cerrar_btn{
+	width: 50px;
+	margin: auto;
+}
+
+.cerrar_btn img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.cerrar_btn a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+
 .contenedor_trayectoria{
 	width:1000px;
 	position: relative;
@@ -282,6 +318,39 @@ body{
 	padding-top: 180px
 }
 
+.bounce2 {
+  animation: bounce2 1.5s ease infinite;
+  -webkit-animation: bounce2 1.5s ease infinite;
+  -moz-animation: bounce2 1.5s ease infinite;
+  -o-animation: bounce2 1.5s ease infinite;
+  -ms-animation: bounce2 1.5s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-40px);}
+	60% {transform: translateY(-15px);}
+}
+@-webkit-keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-40px);}
+	60% {transform: translateY(-15px);}
+}
+@-moz-keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-40px);}
+	60% {transform: translateY(-15px);}
+}
+@-ms-keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-40px);}
+	60% {transform: translateY(-15px);}
+}
+@-o-keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-40px);}
+	60% {transform: translateY(-15px);}
+}
+
 
 .trayectoria_der p{
 	width: 360px;
@@ -301,7 +370,22 @@ body{
 }
 
 .trayectoria_info{
-	margin:100px 0;
+	margin:43px 0;
+	width: 420px;
+	position: relative;
+	border-radius: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	line-height: 20px
+}
+
+.content_mobile{
+	display: none;
+}
+
+
+.trayectoria_info_mobile{
+	margin:43px 0;
 	width: 420px;
 	position: relative;
 	border-radius: 15px;
@@ -320,7 +404,7 @@ body{
 	background: url('../img/box_2.png');
 	background-size: 420px 125px;
 	background-repeat: no-repeat;
-	margin-bottom: 175px;
+	margin-bottom: 155px;
 }
 .box3{
 	background: url('../img/box-3.png');
@@ -350,7 +434,7 @@ body{
 	background: url('../img/box_1.png');
 	background-size: 420px 112px;
 	background-repeat: no-repeat;
-	margin-bottom: 235px;
+	margin-bottom: 100px;
 }
 
 #puntos{
@@ -358,14 +442,15 @@ body{
 	background-position: center;
 	background-size: 70px 1100px;
 	position: absolute;
-	width:100px;
+	width:135px;
 	height: 1200px;
 	z-index: 9000;
-	top: 80px;
+	top: 20px;
 	left: 27em;
 	right: 27em;
 
 }
+
 
 
 /************************** RESPONSIVE ****************************/
@@ -415,6 +500,16 @@ body{
 			text-align:justify;
 			padding-top:20px;
 	}
+
+	#nosotros{
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 250px;
+	}
+
 	
 }
 
@@ -465,6 +560,16 @@ body{
 			text-align:justify;
 			padding-top:20px;
 	}
+
+	#nosotros{
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 400px;
+	}
+
 	
 }
 
@@ -531,6 +636,14 @@ body{
 			padding-top:20px;
 	}
 	
+	#nosotros{
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 350px;
+	}
 }
 
 @media screen and (min-width:320px) and (max-width:480px){
@@ -543,6 +656,10 @@ body{
 		z-index:9999;
 	}
 	
+	#nav > li{
+		font-size: 11px;
+		margin: auto 17px auto 17px;
+	}
 	#logo{
 		width:130px;
 		position:fixed;
@@ -616,7 +733,91 @@ body{
 		font-size:26px !important;
 		
 	}
-	
+
+	#nosotros{
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		text-align: center;
+		padding-top: 150px;
+		padding-bottom: 1100px;
+	}
+
+	.trayectoria_izq{
+		display: none;
+	}
+	.trayectoria_der{
+		display: none;
+	}
+	.mostrar_btn{
+		display: none;	
+	}
+	.cerrar_btn{
+		display: none !important;
+	}	
+	.content_mobile{
+		display: block;
+		width:400px;
+		position: relative;
+		margin:auto;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.trayectoria_info_mobile p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 1em 1em;
+	text-align: justify;
+	}
+
+.box1_mobile{
+	width: 400px;
+	height: 150px;
+	background: #1a5760;
+	border-radius: 20px;
+}
+.box2_mobile{
+	width: 400px;
+	height: 170px;
+	background: #62b683;
+	border-radius: 20px;
+}
+.box3_mobile{
+	width: 400px;
+	height: 150px;
+	background: #b2a78e;
+	border-radius: 20px;
+}
+.box4_mobile{
+	width: 400px;
+	height: 280px;
+	background: #1a5760;
+	border-radius: 20px;
+}
+.box5_mobile{
+	width: 400px;
+	height: 220px;
+	background: #62b683;
+	border-radius: 20px;
+}
+.box6_mobile{
+	width: 400px;
+	height: 130px;
+	background: #b2a78e;
+	border-radius: 20px;
+}
+
+.box7_mobile{
+	width: 400px;
+	height: 130px;
+	background: #1a5760;
+	border-radius: 20px;	
+}
+
+
+
 }
 
 
